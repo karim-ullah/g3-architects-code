@@ -29,6 +29,11 @@ h1{
     font-weight: bold;
     color: #000000;
 }
+h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #727272;
+}
 
 p{
     font-size: 16px;
@@ -43,6 +48,7 @@ p{
     font-size: 20px;
     font-weight: 600;
     padding: 20px 24px;
+    border: none;
     border-radius: 8px;
 }
 
@@ -85,4 +91,38 @@ nav {
 
 .banner img{
     width: 100%;
+}
+
+
+/* features section */
+
+.teams{
+    padding: 85px 0 85px 0;
+    gap: 70px;
+}
+
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.teams-img img{
+    width: 342;
+    height: 342px;
+}
+
+.teams-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.ofour{
+    
+    color: #131313;
+}
+
+.f-text{
+    color: #FF900E;
 }
