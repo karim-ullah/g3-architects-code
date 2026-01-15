@@ -195,3 +195,28 @@ nav {
     border-radius: 8px;
     text-align: center;
 }
+
+/* sponsor section */
+
+.sponsor-heading{
+    text-align: center;
+}
+.sponsor-heading h3{
+    margin-bottom: 24px;
+}
+
+.sponsor-box{
+    margin-top: 50px;
+}
+
+/* footer section */
+
+.footer-text{
+    background-color: #FFF4E7;
+    padding: 38px 0;
+    margin: 130px 0;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+
+}
